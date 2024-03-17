@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 *{
   font-family: 'Droid Arabic Kufi';
@@ -75,6 +76,8 @@ p {
 }
 
 /* header css*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 *,
 *:after,
 *:before {
@@ -548,16 +551,6 @@ cite {
       border-radius:10px;
       font-size:100%;
       width: 500%;
-      animation: slides 2s;
-    }
-
-    @keyframes slides {
-      0%, 100%{
-        transform: scale(1);
-      }
-      50%{
-        transform: scale(1.1);
-      }
     }
     .linkSlide{
       color: #1E4480;
