@@ -22,7 +22,7 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background-image: url("main.png");
+  background-image: url("main.jpg");
   background-size: cover;
   color:rgb(255, 255, 255);
   border: 0%;
@@ -228,25 +228,11 @@ p {
 }
 
 
-.intro2{
-  margin: 1.7em auto;
-  padding: 2em;
-  background: linear-gradient(white, white) padding-box, url('intro.png') border-box 0/cover;
-  border: 2em solid transparent;
-  box-shadow: 5px 3px 30px black;
-  font-size: 2.4em;
-  font-family: "Lora", serif;
-  font-style: italic;
-  line-height: 1.5;
-  width: 80%;
-  text-align: right;
-}
 cite {
   font-style: normal;
   font-size: 1.2em;
   font-weight: bold;
 }
-
 
 .container2 {
   text-align: center;
@@ -276,8 +262,6 @@ cite {
   margin-top: 10px;
 }
 
-
-
 .square {
       display: inline-flex;
       width: 200px;
@@ -298,10 +282,7 @@ cite {
       text-align: center;
     }
 
-
-
-
-    .partner-album {
+  .partner-album {
   position: relative;
   width: 100%;
   height: 140px; /* Adjust the height to fit your needs */
@@ -314,7 +295,7 @@ cite {
   top: 0;
   left: 0;
   width: 200%; /* Set to twice the width of the container */
-  animation: slide 40s infinite linear;
+  animation: slide 1s infinite linear;
 }
 
 .image-container img {
@@ -485,7 +466,7 @@ cite {
     }
 
 
-    .containerG {
+    .container4 {
       display: flex;
     }
     
@@ -515,7 +496,7 @@ cite {
       width: 100%;
     }
     
-    .boxG {
+    .box-box4 {
       width: 270px;
       height: 250px;
       background-color: #fbfbfb;
@@ -545,7 +526,7 @@ cite {
       background-color: #ffffff;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
       color: #123d7c;
-      border-radius:10px;
+      border-radius:50px;
       font-size:100%;
       width: 500%;
       animation: slides 2s;
@@ -573,18 +554,14 @@ cite {
       padding: 5%; margin-top:3%;
       margin-bottom:0%;
     }
-    .underBorderContent3{
-      padding: 3%;
-      padding-top:0%;
-      height:400px;
-    }
+  
     .borderContent4{
       background-color: rgb(255, 255, 255);
       padding:5%;
-      margin-top:7%;
+      margin-top:1%;
     }
     .underBorderContent4{
-      background-color: #fcfafa;
+      background-color: #fbf9f9;
       padding:2%;
       padding-top:3%;
       height:700px;
@@ -613,29 +590,30 @@ cite {
       color: #5a5a5a;
     }
 
-    .titleBox3{
+    .textmain-Box3{
       font-size:110%;
       font-weight:bold;
       color: #123d7c;
       line-height: 1.2;
     }
-    .pBox3{
+    .textsub-Box3{
       color: #5a5a5a;
       font-size: 100%;
       line-height: 1.2;
       font-weight: bolder;
     }
-    .titleBox4{
+    .title-box4{
       font-size:270%;
       font-weight:bold;
       color: #123d7c;
       letter-spacing:3%;
       line-height: 1.2;
       text-align: center;
-      margin-top:17%;
+      margin-top:12%;
     }
     .underTitleBox4{
       line-height: 0.5;
+      font-weight:bold;
     }
     .partnar{
       background-color: rgb(255, 255, 255);
@@ -644,14 +622,14 @@ cite {
       text-align: center;
       line-height: 0.9;
     }
-    .pBox4{
+    .subtitle-box4{
       color: #5a5a5a;
       font-size: 200%;
       letter-spacing:3%;
       line-height: 1.5;
       text-align: center;
     }
-    .titleBox5{
+    .title-Box5{
       font-weight:bold;
       color: #123d7c;
       letter-spacing:3%;
@@ -659,7 +637,7 @@ cite {
       text-align: center;
       font-size:200%;
     }
-    .subTitleBox5{
+    .subTitle-Box5{
       color: #757575;
       font-size:60%;
     }
@@ -867,13 +845,6 @@ margin-right:7%;
   margin-top:5%;
 }
 
-
-.intro{
-  font-size:55%;
-}
-
-
-
 section {
   width: 100%;
   display: inline-block;
@@ -1043,6 +1014,71 @@ section {
 	margin-bottom: 5px;
 }
 
+.custom-box {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fbf9f9;
+  overflow: hidden;
+  margin-top: 5%;
+}
+.custom-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-image img {
+  max-width: 100%;
+  height: auto;
+}
+.custom-content {
+  flex: 1;
+  padding: 20px;
+}
+.custom-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10%;
+}
+.custom-content p {
+  font-size: 26px;
+  line-height: 1.6;
+  text-align: center;
+}
+/* CSS for smooth transitions */
+.custom-image img, .custom-content {
+  transition: opacity 0.5s ease-in-out;
+}
+  /* Style for the loading circle */
+  .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* ensure it's on top of everything */
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
@@ -1100,7 +1136,7 @@ section {
   .topSection{
     margin-top:15%;
   }
-  .boxG {
+  .box-box4 {
     width: 270px;
     height: 250px;
     background-color: #fbfbfb;
@@ -1122,7 +1158,7 @@ section {
   .topSection{
     margin-top:15%;
   }
-  .boxG {
+  .box-box4 {
     width: 270px;
     height: 250px;
     background-color: #fbfbfb;
@@ -1148,28 +1184,12 @@ section {
   .img{
     width:90%;
   }
-.intro2 {
-  margin: 1.7em auto;
-  padding: 2em;
-  background: linear-gradient(white, white) padding-box, url('intro.png') border-box 0/cover;
-  border: 2em solid transparent;
-  box-shadow: 5px 3px 30px black;
-  font-size: 1.7em;
-  font-family: "Lora", serif;
-  font-style: italic;
-  line-height: 1.5;
-  width: 80%;
-}
+
 cite {
   font-style: normal;
   font-size: 0.99em;
   font-weight: bold;
 }
-
-
-  .intro{
-    font-size: 80%;
-  }
 
   .title{
     margin-top:1%;
@@ -1194,9 +1214,6 @@ cite {
 	margin-left:0.7rem;
 	position: relative;
 	font-weight: 500;
-}
-.intro2{
-  font-size: 150%;
 }
 
 .title{
