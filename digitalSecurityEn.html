@@ -4,29 +4,32 @@
     <title>آمنون</title>
     <link rel="stylesheet" href=".\src\css\css.css">
     <link rel="stylesheet" href=".\src\css\css2.css">
-    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="./src/img/logo-white.png" type="image/x-icon">
+  </head>
 <body>
+    <!-- Loading circle container -->
+    <div class="loader-container" id="loader">
+      <div class="loader"></div>
+  </div>
       <!--Content1-->
-      <div style="background: linear-gradient(rgb(247, 247, 247),rgb(128, 153, 186),rgb(38, 87, 151)); margin-bottom: 0%; padding-bottom:1%;">
+      <div class="background" style="margin-bottom: 0%; padding-bottom:1%;">
         <header class="header-outer">
-            <div class="header-inner responsive-wrapper">
-                <div class="header-logo">
-                    <img src="./src/img/logo2.png" style="width:25%; height:20%;" />
-                </div>
-                <nav class="header-navigation">
-                  <a href="indexEn.html">Home</a>
-                  <a href="indexEn.html" onclick="scrollToSection(event)">About us</a>
-                  <a  href="indexEn.html" onclick="scrollToSection(event)">Partners</a>
-                  <a href="indexEn.html" onclick="scrollToSection(event)">Contact us</a>
-                  <a href="digitalSecurity.html">العربية</a>
-                </nav>
+        <div class="header-inner responsive-wrapper">
+            <div class="header-logo">
+                <img src="./src/img/logo-white.png" style="width:23%; height:18%;" />
             </div>
-        </header>
+            <nav class="header-navigation">
+              <a href="indexEn.html">Home</a>
+              <a href="indexEn.html" onclick="scrollToSection(event)">About us</a>
+              <a  href="indexEn.html" onclick="scrollToSection(event)">Partners</a>
+              <a href="indexEn.html" onclick="scrollToSection(event)">Contact us</a>
+              <a href="digitalSecurity.html">العربية</a>
+            </nav>
+        </div>
+    </header>
       <!--Content1-->
       <!--Content2-->
-      <h1 style="text-align: center; color: white; margin-top:7%;">Digital security</h1>
-        <div class="containerSecondPage">
+        <div class="containerSecondPage" style="margin-top: 7%;">
         <div class="box fill">Artificial intelligence</div>
         <div class="box fill">Project management</div>
       </div>
@@ -39,14 +42,14 @@
       <!--Content3-->
       <footer class="footer-distributed">
         <div class="footer-left">
-          <h3><img src="./src/img/logo2.png" width="17%" alt="logo"></h3>
+          <h3><img src="./src/img/logo-white.png" width="17%" alt="logo"></h3>
+          <p class="footer-company-name" style="color: white;">Amnoon Security Consulting</p>
           <p class="footer-links">
             <a href="indexEn.html" class="link-1">Home</a>
             <a href="indexEn.html" onclick="scrollToSection(event)">About us</a>
             <a  href="indexEn.html" onclick="scrollToSection(event)">Partnars</a>
             <a href="indexEn.html" onclick="scrollToSection(event)">Cntact us</a>
           </p>
-          <p class="footer-company-name" style="color: white;">Amnoon Security Consulting</p>
         </div>
         <div class="footer-center">
           <div>
@@ -70,11 +73,11 @@
           </p>
           <div class="footer-icons">
             <a href="https://twitter.com/amnoonsa?lang=ar" style="margin-right:10%;"><i class="fa fa-facebook"><img style="width:150%" src="./src/img/s1.png"></i></a>
-            <a href="https://sa.linkedin.com/in/amnoon-security-consulting-4814941a1"><i class="fa fa-facebook"><img style="width:150%;
-            " src="./src/img/s2.webp"></i></a>
+            <a href="https://sa.linkedin.com/in/amnoon-security-consulting-4814941a1"><i class="fa fa-facebook"><img style="width:150%;" src="./src/img/s2.webp"></i></a>
           </div>
         </div>
       </footer>
       <!--Content3-->
+      <script src="./src/js/js2.js"></script>
 </body>
 </html>
