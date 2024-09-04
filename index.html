@@ -6,7 +6,6 @@
    <link rel="shortcut icon" href="./src/img/symbol.png" type="image/x-icon">
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
-
 <body>
   <!-- Loading circle container -->
   <div class="loader-container" id="loader">
@@ -14,19 +13,22 @@
 </div>
       <!--Content1-->
 <div class="header" style="height:750px;">
+  <div class="logo-container">
+    <img src="./src/img/2030logo.png" style="width:315px" alt="Logo 2" class="logo logo-right">
+    <img src="./src/img/logo-white.png" alt="Logo 1" class="logo logo-left">
+</div>
     <header class="header-outer">
-        <div class="header-inner responsive-wrapper">
-            <div class="header-logo">
-                <img src="./src/img/logo-white.png" style="width:30%; height:20%;" />
-              </div>
-            <nav class="header-navigation">
-                <a href="indexEn.html">English</a>
-                <a href="#contact" onclick="scrollToSection(event)">تواصل</a>
-                <a  href="#partnars" onclick="scrollToSection(event)">الشركاء</a>
-                <a href="#about" onclick="scrollToSection(event)">حول</a>
-                <a href="index.html">الرئيسية</a>
-            </nav>
-        </div>
+      <div class="sidebar" id="sidebar">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="indexEn.html">English</a>
+        <a href="#contact" onclick="scrollToSection(event)">تواصل</a>
+        <a  href="#partnars" onclick="scrollToSection(event)">الشركاء</a>
+        <a href="#about" onclick="scrollToSection(event)">حول</a>
+        <a href="index.html">الرئيسية</a>
+        <!-- Add more links as needed -->
+    </div>
+
+    <span class="openbtn" onclick="openNav()">&#9776;</span>
     </header>
           <!--Content1-->
                 <!--Content2-->
@@ -78,7 +80,7 @@
             <img id="content3-image" src="./src/img/Amnoon.png" alt="Image">
         </div>
         <div class="custom-content">
-            <h2>مكتب آمنون للإستشارات الأمنية</h2>
+<h2>أخبار مكتب آمنون للإستشارات الأمنية</h2>
             <p id="content3-text"></p>
         </div>        
       </div>
