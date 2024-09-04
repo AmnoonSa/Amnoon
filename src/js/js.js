@@ -1,3 +1,11 @@
+function openNav() {
+  document.getElementById("sidebar").classList.add("open");
+}
+
+function closeNav() {
+  document.getElementById("sidebar").classList.remove("open");
+}
+
 function scrollToSection(event) {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute("href").substring(1);
