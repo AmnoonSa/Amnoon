@@ -25,6 +25,7 @@ function scrollToSection(event) {
     "./src/img/news2.jpg",
     "./src/img/news3.png",
     "./src/img/news4.png",
+    "./src/img/94.jpeg",
     // Add more image paths as needed
 ];
 const texts = [
@@ -73,12 +74,11 @@ const imagesEn = [
   // Add more image paths as needed
 ];
 const textsEn = [
-    "Amnon Security Consulting Office provides consulting in the fields of security and digital security for the public and industrial sectors with global standards and in accordance with the requirements of the Supreme Authority for Industrial Security. This is achieved through a distinguished group of national experts in alignment with the Kingdom's Vision 2030",
-    "Amnon Security Consulting Office participates in the third seminar on the security and safety of critical infrastructure, presenting two working papers delivered by a selection of security consultants. The seminar will be held in Dhofar Governorate, Sultanate of Oman, from September 2-4",
-    "Amnon Security Consulting Office is honored to participate in the third seminar on 'Critical Infrastructure Security,' which will be held in Salalah, Sultanate of Oman, under the title 'Port and Maritime Facility Security.' We will present a working paper on 'The Role of Digital Security in Protecting Critical Infrastructure Data,' delivered by retired Brigadier General Dr. Barakah bin Zamil Al-Hoshan",
-    "Amnon Security Consulting Office is honored to present a working paper at the 'Critical Infrastructure Security' seminar, which will be held in Salalah, Sultanate of Oman, under the title 'Port and Maritime Facility Security.' The paper on airport security will be presented by retired Brigadier General Yusuf bin Ahmed Al-Qahtani",
-    "Amnon Security Consulting Office is honored to participate in the third seminar on 'Critical Infrastructure Security,' which will be held in Salalah, Sultanate of Oman, under the title 'Port and Maritime Facility Security.' We will present a working paper on port security, delivered by retired Naval Admiral Abdullah bin Nasser Abaalkhail",
-    // Add more texts corresponding to the images
+    "Amnoon Security Consulting Office provides consulting in the fields of security and digital security for the public and industrial sectors with global standards and in accordance with the requirements of the Supreme Authority for Industrial Security. This is achieved through a distinguished group of national experts in alignment with the Kingdom's Vision 2030",
+    "Amnoon Security Consulting Office participates in the third seminar on the security and safety of critical infrastructure, presenting two working papers delivered by a selection of security consultants. The seminar will be held in Dhofar Governorate, Sultanate of Oman, from September 2-4",
+    "Amnoon Security Consulting Office is honored to participate in the third seminar on 'Critical Infrastructure Security,' which will be held in Salalah, Sultanate of Oman, under the title 'Port and Maritime Facility Security.' We will present a working paper on 'The Role of Digital Security in Protecting Critical Infrastructure Data,' delivered by retired Brigadier General Dr. Barakah bin Zamil Al-Hoshan",
+    "Amnoon Security Consulting Office is honored to present a working paper at the 'Critical Infrastructure Security' seminar, which will be held in Salalah, Sultanate of Oman, under the title 'Port and Maritime Facility Security.' The paper on airport security will be presented by retired Brigadier General Yusuf bin Ahmed Al-Qahtani",
+    "Amnoon Security Consulting Office extends its congratulations to the Custodian of the Two Holy Mosques and His Royal Highness the Crown Prince - may God protect them - on the occasion of the 94th Saudi National Day. We pray to Almighty God to preserve our leadership and our homeland and to grant us the blessings of security, safety, stability, and prosperity",    // Add more texts corresponding to the images
 ];
 
 let indexEn = 0;
