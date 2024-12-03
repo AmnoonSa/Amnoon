@@ -28,6 +28,8 @@ function scrollToSection(event) {
     "./src/img/94.jpeg",
     "./src/img/news5.jpeg",
     "./src/img/news6.jpeg",
+    "./src/img/news7.jpeg",
+    "./src/img/news8.jpg",
     // Add more image paths as needed
 ];
 const texts = [
@@ -39,6 +41,8 @@ const texts = [
     "يسر مكتب آمنون للاستشارات الأمنية أن يهنىء مقام خادم الحرمين الشريفين و سمو ولي عهده الأمين - رعاهم الله - بمناسبة اليوم الوطني السعودي ٩٤ سائلين المولى عز وجل أن يحفظ قيادتنا و وطننا وأن يديم علينا نعمة الأمن والأمان والاستقرار والرخاء",
     "زار عدد من المستشارين معرض “إنترسيك” الدولي للأمن والسلامة في الرياض، حيث اطلعوا على أحدث الابتكارات والحلول التكنولوجية في مجالات الأمن السيبراني والحماية. كما استعرضوا التقنيات المتقدمة التي تهدف إلى تعزيز البنية التحتية الحيوية والأمن العام",
     "عقد مضى زخراً بالنهضة و النماء حافلاً بتنمية متطورة، و ديمومة عطاء أدام الله عز وطننا وقائد مسيرتنا، ودامت راية الوطن خفاقة شامخة في ظل قيادتنا الرشيدة",
+    "شارك مكتب أمنون للاستشارات الأمنية في معرض ومؤتمر سيبكا للأعمال SIBEC 2024  في ابوظبي و خلاله التقي الدكتور عبدالعزيز الحوشان ، المدير التنفيذي ، بالأستاذ Mike Brunzell نائب الرئيس لتطوير الأعمال العالمية NFPA ، وسعادة الاخ الاستاذ ابراهيم لاري المدير التنفيذي- شركة سيبكا والمهندسة دانه كمال مديرة التطوير الدولي للشرق الاوسط NFPA ومشاركة عميد بحري متقاعد عبدالله بن ناصر اباالخيل ، المستشار البحري في مكتب امنون للاستشارات الامنية والأستاذة لبنى الجندي مدير العلاقات والاتصالات تم خلاله بحث سبل وآفاق التعاون",
+    "تحتفل سلطنة عمان بالعيد الوطني المجيد 54 ، و بهذه المناسبة تتقدم شركة امنون للاستشارات الامنية باسمى ايات التهاني و التبريكات لصاحب الجلالة السلطان هيثم بن طارق رعاة الله والشعب العماني النبيل بدوام التقدم و الازدهار في ظل هذا العهد الميمون ،وكل عام وسلطنة العز في عز و امن و رخاء",
     // Add more texts corresponding to the images
 ];
 
@@ -77,6 +81,8 @@ const imagesEn = [
   "./src/img/94.jpeg",
   "./src/img/news5.jpeg",
   "./src/img/news6.jpeg",
+  "./src/img/news7.jpeg",
+  "./src/img/news8.jpg",
   // Add more image paths as needed
 ];
 const textsEn = [
@@ -87,6 +93,8 @@ const textsEn = [
     "Amnoon Security Consulting Office extends its congratulations to the Custodian of the Two Holy Mosques and His Royal Highness the Crown Prince - may God protect them - on the occasion of the 94th Saudi National Day. We pray to Almighty God to preserve our leadership and our homeland and to grant us the blessings of security, safety, stability, and prosperity",
     "A number of consultants visited the International Security and Safety Exhibition 'Intersec' in Riyadh, where they explored the latest innovations and technological solutions in the fields of cybersecurity and protection. They also reviewed advanced technologies aimed at enhancing critical infrastructure and public safety.",
     "A year has passed full of progress and development, characterized by advanced growth and continuous contributions. May God sustain our nation and the leader of our journey, and may the flag of our country continue to fly high under our wise leadership.",
+    "Amnoon Security Consulting participated in the SIBEC 2024 Business Exhibition and Conference in Abu Dhabi. During the event, Dr. Abdulaziz Al-Hoshan, the Executive Director, met with Mr. Mike Brunzell, Vice President for Global Business Development at NFPA; Mr. Ibrahim Lari, CEO of SIBEC; and Ms. Dana Kamal, Director of International Development for the Middle East at NFPA. The event also saw the participation of retired Naval Brigadier Abdullah bin Nasser Aba Al-Khail, Maritime Consultant at Amnoon Security Consulting, and Ms. Lubna Al-Jundi, Director of Relations and Communications. Discussions focused on exploring avenues and prospects for cooperation",
+    "The Sultanate of Oman celebrates its glorious 54th National Day, and on this occasion, Amnoon Security Consulting extends its heartfelt congratulations and best wishes to His Majesty Sultan Haitham bin Tariq, may God protect him, and to the noble Omani people, wishing continued progress and prosperity under this blessed era. May the Sultanate of Pride always remain in glory, security, and prosperity",
     // Add more texts corresponding to the images
 ];
 
@@ -115,3 +123,8 @@ changeContent3En();
 
 // Call changeContent3 every 10000 milliseconds (10 seconds)
 setInterval(changeContent3En, 10000);
+//mcq tf and short answer and problem solving.
+//style mvc project draw.
+//description and seletct from distrption file 1, and soa and broker.
+//mvc client server 3 4 teer peer to peer soa and broker.
+//name patter.pvt
