@@ -68,7 +68,7 @@ function changeContent3() {
 changeContent3();
 
 // Call changeContent3 every 10000 milliseconds (10 seconds)
-setInterval(changeContent3, 3000);
+setInterval(changeContent3, 10000);
 
 const imagesEn = [
   "./src/img/Amnoon.png",
@@ -120,4 +120,4 @@ function changeContent3En() {
 changeContent3En();
 
 // Call changeContent3 every 10000 milliseconds (10 seconds)
-setInterval(changeContent3En, 3000);
+setInterval(changeContent3En, 10000);
