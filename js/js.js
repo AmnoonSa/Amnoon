@@ -123,8 +123,3 @@ changeContent3En();
 
 // Call changeContent3 every 10000 milliseconds (10 seconds)
 setInterval(changeContent3En, 10000);
-//mcq tf and short answer and problem solving.
-//style mvc project draw.
-//description and seletct from distrption file 1, and soa and broker.
-//mvc client server 3 4 teer peer to peer soa and broker.
-//name patter.pvt
